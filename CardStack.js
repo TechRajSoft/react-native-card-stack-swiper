@@ -121,20 +121,7 @@ export default class CardStack extends Component {
   }
 
   componentDidMount(){
-    this.initDeck();
-  }
 
-  componentWillReceiveProps(nextProps){
-    if (nextProps.children !== this.props.children) {
-      this.setState({
-        cards: nextProps.children,
-        cardA: nextProps.children[(this.state.topCard=='cardA')? this.state.sindex-2 : this.state.sindex-1],
-        cardB: nextProps.children[(this.state.topCard=='cardB')? this.state.sindex-2 : this.state.sindex-1]
-      });
-    }
-  }
-
-  initDeck() {
     // check if we only have 1 child
     if(typeof this.props.children !== 'undefined' && !Array.isArray(this.props.children)){
       this.setState({
@@ -149,6 +136,17 @@ export default class CardStack extends Component {
         cardA: this.props.children[0],
         cardB: this.props.children[1],
         sindex: 2,
+      });
+    }
+
+  }
+
+  componentWillReceiveProps(nextProps){
+    if (nextProps.children !== this.props.children) {
+      this.setState({
+        cards: nextProps.children,
+        cardA: nextProps.children[(this.state.topCard=='cardA')? this.state.sindex-2 : this.state.sindex-1],
+        cardB: nextProps.children[(this.state.topCard=='cardB')? this.state.sindex-2 : this.state.sindex-1]
       });
     }
   }

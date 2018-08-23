@@ -1,15 +1,44 @@
 {
-  "name": "react-native-card-stack-swiper",
-  "version": "1.0.6",
+  "_from": "react-native-card-stack-swiper",
+  "_id": "react-native-card-stack-swiper@1.0.8",
+  "_inBundle": false,
+  "_integrity": "sha1-yQCBfHhyyaOaSwAp22O8wvvKtW4=",
+  "_location": "/react-native-card-stack-swiper",
+  "_phantomChildren": {
+    "fbjs": "0.8.17",
+    "loose-envify": "1.4.0"
+  },
+  "_requested": {
+    "type": "tag",
+    "registry": true,
+    "raw": "react-native-card-stack-swiper",
+    "name": "react-native-card-stack-swiper",
+    "escapedName": "react-native-card-stack-swiper",
+    "rawSpec": "",
+    "saveSpec": null,
+    "fetchSpec": "latest"
+  },
+  "_requiredBy": [
+    "#USER",
+    "/"
+  ],
+  "_resolved": "https://registry.npmjs.org/react-native-card-stack-swiper/-/react-native-card-stack-swiper-1.0.8.tgz",
+  "_shasum": "c900817c7872c9a39a4b0029db63bcc2fbcab56e",
+  "_spec": "react-native-card-stack-swiper",
+  "_where": "/home/diceclue/Desktop/ReactNativeApps/budd/Budd",
+  "author": {
+    "name": "Ludwig Handel"
+  },
+  "bugs": {
+    "url": "https://github.com/lhandel/react-native-card-stack-swiper/issues"
+  },
+  "bundleDependencies": false,
+  "dependencies": {
+    "prop-types": "15.5.10"
+  },
+  "deprecated": false,
   "description": "Tinder like react-native card stack swiper",
-  "main": "index.js",
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
-  },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/lhandel/react-native-card-stack-swiper.git"
-  },
+  "homepage": "https://github.com/lhandel/react-native-card-stack-swiper#readme",
   "keywords": [
     "react-native",
     "tinder",
@@ -22,8 +51,9 @@
     "card-stack",
     "react-native-component"
   ],
-  "author": "Ludwig Handel",
   "license": "MIT",
+  "main": "index.js",
+  "name": "react-native-card-stack-swiper",
   "peerDependencies": {
     "react": "^16.0.0-beta.5",
     "react-native": "^0.49.1"
@@ -32,12 +62,8 @@
     "type": "git",
     "url": "git+https://github.com/lhandel/react-native-card-stack-swiper.git"
   },
-  "bugs": {
-    "url": "https://github.com/lhandel/react-native-card-stack-swiper/issues"
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "bundleDependencies": false,
-  "dependencies": {
-    "prop-types": "15.5.10"
-  },
-  "homepage": "https://github.com/lhandel/react-native-card-stack-swiper#readme"
+  "version": "1.0.8"
 }
