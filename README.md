@@ -7,7 +7,7 @@ Tinder like react-native card stack swiper
 ## Installation
 
 ```
-  npm install --save react-native-card-stack-swiper
+  npm install --save TechRajSoft/react-native-card-stack-swiper
 ```
 
 ## Preview
